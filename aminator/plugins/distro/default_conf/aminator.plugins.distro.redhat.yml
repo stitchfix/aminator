@@ -16,3 +16,4 @@ chroot_mounts:
 provision_configs: true
 provision_config_files:
   - /etc/resolv.conf
+  - /etc/yum.repos.d
