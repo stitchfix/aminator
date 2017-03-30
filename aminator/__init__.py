@@ -35,7 +35,9 @@ except ImportError:
             def emit(self, record):
                 pass
 
-__version__ = '2.1.71-dev'
+# NOTE: version used to have a -dev suffix, but I think this breaks newer
+# versions of the build tools we are using
+__version__ = '2.1.71'
 __versioninfo__ = __version__.split('.')
 __all__ = ()
 
